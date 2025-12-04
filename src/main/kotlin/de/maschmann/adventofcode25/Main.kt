@@ -1,5 +1,7 @@
 package de.maschmann.adventofcode25
 
+import de.maschmann.adventofcode25.day4.PrintingDepartment
+
 fun main() {
 
     // Day 1
@@ -10,4 +12,7 @@ fun main() {
 
     // Day 3
 //    println(Lobby("/day3/input.txt").getJoltSum())
+
+    // Day 4
+    println(PrintingDepartment("/day4/input.txt").retrieveAllAccessablePaperRolls())
 }
