@@ -1,6 +1,6 @@
 package de.maschmann.adventofcode25
 
-import de.maschmann.adventofcode25.day5.Cafeteria
+import de.maschmann.adventofcode25.day6.TrashCompactor
 
 fun main() {
 
@@ -17,5 +17,8 @@ fun main() {
 //    println(PrintingDepartment("/day4/input.txt").retrieveAllAccessablePaperRolls())
 
     // Day 5
-    println(Cafeteria("/day5/input.txt").countFreshConsideredIngredient())
+//    println(Cafeteria("/day5/input.txt").countFreshConsideredIngredient())
+
+    // Day 6
+    println(TrashCompactor("/day6/input.txt").countProblemResultsVertical())
 }
